@@ -1,0 +1,107 @@
+
+/*************** Navbar ***************/
+
+.button-left {
+
+	float: left;
+	margin-left: 10px;
+
+}
+
+/*************** Content ***************/
+
+body {
+
+	font-family: "Lato", sans-serif;
+	color: #747704;
+	font-weight: 300;
+	padding-top: 50px; /* For navbar */
+
+}
+
+/*************** Header ***************/
+
+.title-logo {
+
+	margin-top: 25px;
+
+}
+
+.text-thin {
+
+	font-weight: 100;
+
+}
+
+.title-super {
+
+	font-size: 30px;
+
+}
+
+hr {
+
+	height: 5px;
+	background-color: #bcbbbb;
+
+}
+
+/*************** Bottom ***************/
+
+.text-muted {
+
+	color: #bcbbbb;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.text-bold {
+
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+.img-center {
+
+	margin: 0 auto;
+
+}
+
+/*************** To Ajust To Screen Size ***************/
+
+@media screen and (min-width: 722px) {
+
+
+	.logo-img {
+
+		content: url("images/me_100x100.jpg");
+
+	}
+
+	.title-super {
+
+		font-size: 60px;
+
+	}
+
+	.mid-img {
+
+		content: url("images/img_1200x400.jpg");
+
+	}
+
+	.text-muted {
+
+		font-size: 30px;
+
+	}
+
+	.text-bold {
+
+		font-size: 30px;
+
+	}
+
+}
